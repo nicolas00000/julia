@@ -1,0 +1,46 @@
+@property --text-color {
+    syntax: "<color>";
+    inherits: false;
+    initial-value: #ddd;
+
+}
+body{
+    height: 100vh;
+    background-color: #222 !important;
+    display: flex;
+    align-items: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+img{
+    height: 300px;
+    padding: 10px;
+}
+.carousel-frame{
+    max-width: 500px;
+margin-bottom: 10px;    
+}
+
+.carousel-img{
+    border-radius: 25px;
+}
+
+.count-text{
+    color: var(--text-color);
+}
+
+.title-dark{
+    color: var(--text-color);
+}
