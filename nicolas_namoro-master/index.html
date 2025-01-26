@@ -13,15 +13,15 @@
         <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <div class="container">
+    <!-- <div class="container">
         <div class="caixa">
-            <h1 class="text-center title-dark">TE QUERO PARA SEMPRE!</h1>
+            <h1 class="text-center title-dark">TE QUERO PARA</h1>
 
             <div class="carousel-frame">
                 <div                 id="carouselExampleSlidesOnly"                 class="carousel slide"               data-ride="carousel"                data-bs-ride="carousel"data-bs-interval="1000">
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100 carousel-img" src="./assets/img/love_1.jpg" alt="First slide">
+                        <div class="carousel-item">
+                            <img class="d-block w-100 carousel-img" src="./assets/img/love_3.jpg" alt="Third slide">
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100 carousel-img" src="./assets/img/love_2.jpg" alt="Second slide">
@@ -37,13 +37,76 @@
 
 
         </div>
-    </div>
+    </div> -->
     
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+
+        <audio src="assets/img/mus.mp3" controls autoplay ></audio>
+        <audio id="musica" hidden>
+            <source src="assets/img/mus.mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+          </audio>
+        
+          <!-- Mensagem caso o autoplay seja bloqueado -->
+          <div id="mensagem" style="display: none; text-align: center; margin-top: 20px;">
+            O autoplay foi bloqueado. Clique no botão abaixo para ouvir a música.
+            <button onclick="tocarMusica()">Tocar Música</button>
+          </div>
+       
+        <h1 class="text-center title-dark">TE QUERO PARA SEMPRE!!💓</h1>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1300">
+            <img src="./assets/img/foto1.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto2.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto3.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto4.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto5.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto6.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto7.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto8.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto9.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto10.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto11.jpeg" class="d-block w-500" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="1300">
+            <img src="./assets/img/foto12.jpeg" class="d-block w-500" alt="...">
+          </div>
+        </div>
+
+     
+
+        <div id="contador"></div> 
+        <!-- <p class="count-text text-center contador" id="resultado contador">aaa</p> -->
+      </div>
     <script 
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
         crossorigin="anonymous"
     >
+
+    
     </script>
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/contador.js"></script>
